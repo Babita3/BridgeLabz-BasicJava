@@ -1,6 +1,6 @@
 package Day5_problems;
 import java.util.Random;
-public class FlipCoin {
+public class PrintPercentage {
      public static void main(String[] args) {
 
             Random ran = new Random();
