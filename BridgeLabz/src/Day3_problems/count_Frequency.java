@@ -1,7 +1,6 @@
 package Day3_problems;
 
-public class count_Frequency
-    {
+public class count_Frequency {
         public static void countFreq(int arr[], int n)
         {
             boolean visited[] = new boolean[n];

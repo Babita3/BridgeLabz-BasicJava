@@ -1,4 +1,4 @@
-package Day4_problems;
+package Day5_problems;
 import java.util.Random;
 public class FlipCoin {
      public static void main(String[] args) {

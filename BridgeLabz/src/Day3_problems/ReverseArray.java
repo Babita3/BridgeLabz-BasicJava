@@ -1,21 +1,14 @@
 package Day3_problems;
 import java.util.*;
 public class ReverseArray {
-    public static void main(String[] args) {
-            int[] numbers = {1, 2, 3, 4, 5};
-            reverse(numbers);
-        }
-        public static void reverse(int[] array)
-        {
-            System.out.println("Array = " + Arrays.toString(array));
-            int maxIndex = array.length - 1;
-            int halfLength = array.length / 2;
-            for (int i = 0; i < halfLength; i++) {
-                int temp = array[i];
-                array[i] = array[maxIndex - i];
-                array[maxIndex - i] = temp;
+
+        public static void main(String[] args) {
+
+            int [] ar = {1,2,3,4,5,6,7,8,9};
+            System.out.print("Elements of the arrays are " );
+
+            for (int i = ar.length-1; i>=0; i--){
+                System.out.print(" " + ar[i]);
             }
-            System.out.println("Reversed array = " + Arrays.toString(array));
         }
     }
-
