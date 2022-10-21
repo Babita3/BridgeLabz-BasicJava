@@ -6,8 +6,8 @@ public class Reverse {
             int num = sc.nextInt(), reverse = 0;
 
             while(num != 0) {
-                int remValue = num % 10;
-                reverse = reverse*10 + remValue;
+                int reverseValue = num % 10;
+                reverse = reverse*10 + reverseValue;
                 num = num/10;
             }
 

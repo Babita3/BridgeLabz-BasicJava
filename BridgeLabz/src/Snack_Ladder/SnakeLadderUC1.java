@@ -1,6 +1,6 @@
 package Snack_Ladder;
 
-public class Uc1 {
+public class SnakeLadderUC1 {
     public static void main(String[] args) {
         int player1 = 0;
 

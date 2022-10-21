@@ -1,4 +1,4 @@
-package Day3_problems;
+package Day4_problems;
 
 public class Emp_parttime {
     public static void main(String[] args)
