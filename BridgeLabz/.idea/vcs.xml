@@ -2,5 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+<<<<<<< Updated upstream
+=======
+    <mapping directory="$PROJECT_DIR$/src/Day4_problems" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Day5_problems" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LineComparision" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Snack_Ladder" vcs="Git" />
+>>>>>>> Stashed changes
   </component>
 </project>

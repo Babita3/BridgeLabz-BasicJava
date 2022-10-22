@@ -1,7 +1,4 @@
 package Day1_problems;
-
-import java.time.Clock;
-
 public class primitive_data {
     static byte a; //initializing static variables
     static boolean b;

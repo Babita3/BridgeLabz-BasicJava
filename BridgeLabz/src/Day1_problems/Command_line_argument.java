@@ -1,19 +1,13 @@
 package Day1_problems;
-
 public class Command_line_argument {
-
-    public static void main (String x[])
-        {
+    public static void main (String x[]) {
             int n, cnt=0, sum=0;
-            for(int i=0;i<x.length;i++)
-            {
-                try
-                {
+            for(int i=0;i<x.length;i++) {
+                try {
                     n=Integer.parseInt(x[i]);
                     sum= sum+n;
                 }
-                catch (NumberFormatException e)
-                {
+                catch (NumberFormatException e){
                     cnt++;
                 }
             }
@@ -21,7 +15,6 @@ public class Command_line_argument {
 
             System.out.println("Invalid integers are: "+cnt) ;
         }
-
     }
 
 
